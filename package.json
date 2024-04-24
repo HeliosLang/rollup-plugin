@@ -1,0 +1,41 @@
+{
+    "name": "@helios-lang/rollup-plugin",
+    "version": "0.1.0",
+    "description": "Rollup plugin that compiles top-level helios validators during bundle time",
+    "main": "src/index.js",
+    "types": "types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "npm run prettify && npm run build:types",
+        "build:types": "npx tsc -p jsconfig.json --noEmit false --emitDeclarationOnly",
+        "prettify": "npx prettier . --write",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HeliosLang/rollup-plugin.git"
+    },
+    "keywords": [
+        "rollup-plugin"
+    ],
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": false
+    },
+    "author": "Christian Schmitz",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/HeliosLang/rollup-plugin/issues"
+    },
+    "homepage": "https://github.com/HeliosLang/rollup-plugin#readme",
+    "dependencies": {
+        "@helios-lang/esbuild-plugin": "^0.1.5"
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "rollup": "^4.16.4",
+        "typescript": "^5.4.5"
+    }
+}
