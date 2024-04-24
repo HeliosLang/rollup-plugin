@@ -1,6 +1,6 @@
 {
     "name": "@helios-lang/rollup-plugin",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "Rollup plugin that compiles top-level helios validators during bundle time",
     "main": "src/index.js",
     "types": "types/index.d.ts",
