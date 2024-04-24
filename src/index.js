@@ -32,7 +32,8 @@ export default function makePlugin(options) {
                 env: options.define,
                 tsConfig: options.tsConfig,
                 cache,
-                content: content
+                content: content,
+                format: "js"
             })
 
             return {

@@ -31,7 +31,7 @@
     },
     "homepage": "https://github.com/HeliosLang/rollup-plugin#readme",
     "dependencies": {
-        "@helios-lang/esbuild-plugin": "^0.1.7"
+        "@helios-lang/esbuild-plugin": "^0.1.8"
     },
     "devDependencies": {
         "prettier": "^3.2.5",
