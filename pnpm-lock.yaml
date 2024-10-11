@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@helios-lang/esbuild-plugin':
-        specifier: ^0.1.10
-        version: 0.1.10
+        specifier: ^0.1.11
+        version: 0.1.11
     devDependencies:
       prettier:
         specifier: ^3.3.3
@@ -162,8 +162,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@helios-lang/esbuild-plugin@0.1.10':
-    resolution: {integrity: sha512-bvFLoKyafoOv73QGZ22BdxrgUnPAZ3VEWc82KfwkG3THPSILIM5z5AdRWTCWWyNKhEM+GEVdyiUIk/A6yikrEg==}
+  '@helios-lang/esbuild-plugin@0.1.11':
+    resolution: {integrity: sha512-5GVmC8lCKLwZlhrLBlBBtOdPttkYv7bU3C60AyY/tBSA0wxEBbC56bP+RiaBCbtwpzQmdtibOnfelcqFOUEEvQ==}
 
   '@rollup/rollup-android-arm-eabi@4.21.2':
     resolution: {integrity: sha512-fSuPrt0ZO8uXeS+xP3b+yYTCBUd05MoSp2N/MFOgjhhUhMmchXlpTQrTpI8T+YAwAQuK7MafsCOxW7VrPMrJcg==}
@@ -344,7 +344,7 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@helios-lang/esbuild-plugin@0.1.10':
+  '@helios-lang/esbuild-plugin@0.1.11':
     dependencies:
       esbuild: 0.20.2
 
